@@ -1,7 +1,7 @@
 fetch('https://jsonplaceholder.typicode.com/users')
 .then(response => response.json())
 .then(json => dataBase(json))
-
+.catch(erro => console.log(erro));
 
 const dataBase = (users)=>{
     const displayName = document.getElementById(`displayValue`)

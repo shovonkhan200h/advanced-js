@@ -14,5 +14,7 @@ const myValue ={
 const userJson = JSON.stringify(myValue)
 console.log(userJson)
 
+
+//JSON.Parse makes all value to object
 const userJson2 = JSON.parse(userJson)
 console.log(userJson2)
