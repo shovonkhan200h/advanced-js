@@ -10,10 +10,10 @@ console.log(output)
 
 const result = number.map(number => number * number)
 
-const output = number.map((num)=>{
+const output5 = number.map((num)=>{
     return num + num;
 })
-console.log(output)
+console.log(output5)
 
 
 // MAP ONLY WORKS WITH ARRAY
