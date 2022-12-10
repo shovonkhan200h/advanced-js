@@ -30,4 +30,11 @@ const heroPersons ={
 
 const values =nameAs.salaryCount.bind(heroPerson)
 const valuess =nameAs.salaryCount.bind(heroPersons)
-console.log(valuess(100))
+// console.log(valuess(100))
+
+nameAs.salaryCount.call(heroPerson, 1000)
+// console.log(heroPerson.salar)
+
+
+nameAs.salaryCount.apply(heroPerson, [1000])
+console.log(heroPerson.salar)
